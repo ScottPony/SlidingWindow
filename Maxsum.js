@@ -1,3 +1,8 @@
+// Time-Complexity
+// 外部for loop = O(n - size + 1)
+// 內部for loop = O(size)
+// 整體 = O(n * size)
+// 如果size無限大 = O(n^2)
 function maxSum(array, size) {
   let maxSum = -Infinity;
   if (array.length < size) {
